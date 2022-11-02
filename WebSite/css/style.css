@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+
+
+
+}
+
+#menu {
+	height: 80px;
+	padding: 0 20px;
+}
+
+#giris {
+	font-size: 25px;
+	line-height: 80px;
+	color: #003666;
+	float: left;
+}
+
+nav {
+	float: right;
+	line-height: 80px;
+}
+
+nav a:link {
+	text-decoration: none;
+	margin-right: 25px;
+	color: #003666;
+}
+
+nav a:hover {
+	border-bottom: 2px solid #003666;
+}
+
+nav a :visited {
+	text-decoration: none;
+	margin-right: 25px;
+	color: #003666;
+}
+
+.ikon {
+	margin-right: 7px;
+	font-size: 20px;
+}
+
+#anasayfa {
+	height: 600px;
+	background-image: url("../img/laptops.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#black {
+	
+	height: 700px;
+	background-color: black;
+	opacity: 0.5;
+}
+
+#anasayfa {
+	margin-right: 7px;
+	font-size: 45px;
+	text-align: center;
+}
+
+#uyegiris {
+	height: 600px;
+	background-image: url("../img/laptops.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#urunlistele {
+	height: 600px;
+	background-image: url("../img/laptops.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+#customers {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+}
+
+#customers td,
+#customers th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+	background-color: #ddd;
+}
+
+#customers th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+}
+
+#butonurun {
+	height: 60px;
+	color: aqua
+}
+
+.btn {
+	display: inline-block;
+	font-weight: $btn-font-weight;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	border: $btn-border-width solid transparent;
+	@include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $btn-line-height, $btn-border-radius);
+	@include transition($btn-transition);
+
+	@include hover-focus {
+		text-decoration: none;
+	}
+}
